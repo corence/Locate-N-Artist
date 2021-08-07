@@ -1,0 +1,165 @@
+.root {
+    text-align: center;
+}
+
+.welcome {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+
+    font-size: 4em;
+    letter-spacing: 0.07em;
+
+    margin-bottom: 0.5em;
+
+    color: rgb(0, 150, 160);
+}
+
+.intro {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 2em;
+
+    color: rgb(120, 120, 120);
+}
+
+.and {
+    text-decoration: underline;
+}
+
+#div1 {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+#div2 {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+#div3 {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+#div4 {
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+#div5 {
+    animation-name: fade;
+    animation-duration: 5s;
+
+}
+
+#map-div {
+    display: inline-block;
+    vertical-align: top;
+
+    text-align: center;
+
+    padding: 5em 1em 5em 1em;
+    margin: 3em 0em 0em 2em;
+
+    width: 45em;
+    height: 40em;
+}
+
+#form-div {
+    padding-bottom: 3.3em;
+}
+
+#iframe-div {
+    margin-top: 0.5em;
+}
+
+.main-div {
+    display: inline-block;
+
+    width: 60em;
+
+    margin: 2em 2em 5em 1em;
+    padding: 1em;
+}
+
+.artist-div {
+    display: inline-block;
+}
+
+.artist-btn {
+    float: left;
+    display: inline;
+
+    width: 15em;
+    height: 2em;
+    margin: 2em 3em 2em 3em;
+
+    font-size: 2em;
+    font-family: Garamond, serif;
+    font-weight: bold;
+
+    border-color: black;
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.artist-img {
+    float: left;
+    display: inline;
+
+    width: 10em;
+    height: 10em;
+
+    margin: 1em 5em 1em 2em; 
+}
+
+#input-text {
+    height: 3em;
+    width: 20em;
+
+    background-color: rgb(220, 220, 220);
+}
+
+#submit-btn {
+    height: 4em;
+    width: 9em;
+
+    background-color: rgb(175, 238, 238);
+
+    margin-left: 0.5em;
+}
+
+#loc-err {
+    color: red
+}
+
+#art-err {
+    color: red;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcWR23qSdhcBjzEkZiKaF66yar2rBq6c9uiQ&usqp=CAU") no-repeat center center fixed;
+
+    height: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* animation to fade in components */
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
